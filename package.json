@@ -1,0 +1,23 @@
+{
+  "name": "tth-fsjs-p7",
+  "version": "1.0.0",
+  "description": "This is the seventh project of the Full Stack JS Techdegree at Team Treehouse",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vagning/TTH-FSJS-P7.git"
+  },
+  "author": "Thomas Vagning",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vagning/TTH-FSJS-P7/issues"
+  },
+  "homepage": "https://github.com/Vagning/TTH-FSJS-P7#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "pug": "^2.0.3"
+  }
+}
