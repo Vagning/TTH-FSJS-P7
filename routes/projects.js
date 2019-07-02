@@ -8,7 +8,12 @@ router.get('/:id', (req, res) => {
 	const { id } = req.params;
 	//Render project pug template with input values for correct project
 	res.render('project', {
-		tags: projects[id].technologies
+		title: projects[id].project_name,
+		description: projects[id].description,
+		tags: projects[id].technologies,
+		live: projects[id].live_link,
+		github: projects[id].github_link,
+		images: projects[id].image_urls
 	});
 });
 
