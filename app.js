@@ -11,7 +11,9 @@ app.listen(3000, () => {
 	console.log('Application is listening on localhost:3000')
 });
 //Import routes and use use them
-const routes = require('./routes');
-app.use(routes);
+const mainRoutes = require('./routes');
+const projectRoutes = require('./routes/projects');
+app.use(mainRoutes);
+app.use('/projects', projectRoutes);
 //Set the folder plublic to be used for providing static content
 app.use(express.static('plublic'));

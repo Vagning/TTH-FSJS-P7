@@ -5,7 +5,7 @@
 			"project_name": "Random Quote Generator",
 			"description": "A random quote generator for praticing my knowledge of basic JavaScript syntax and data structures. The random quote generator displays a randomly selected quote each time the user click a button.",
 			"technologies": ["HTML", "CSS", "JS"],
-			"live_link": "no link",
+			"live_link": null,
 			"github_link": "https://github.com/Vagning/TTH-FSJS-P1",
 			"image_urls": []
 		},
@@ -14,7 +14,7 @@
 			"project_name": "Pagination & Content Filter",
 			"description": "Praticing create of pagination and content filters for showing data to the users with enhanced usability.",
 			"technologies": ["HTML", "CSS", "JS", "JQuery"],
-			"live_link": "no link",
+			"live_link": null,
 			"github_link": "https://github.com/Vagning/TTH-FSJS-P2",
 			"image_urls": []
 		},
@@ -23,7 +23,7 @@
 			"project_name": "Build An Interactive Form",
 			"description": "Creating a interactive form to validate user inputs on the go to ensure a good user experince and correct data.",
 			"technologies": ["HTML", "CSS", "JS", "JQuery"],
-			"live_link": "no link",
+			"live_link": null,
 			"github_link": "https://github.com/Vagning/TTH-FSJS-P3",
 			"image_urls": []
 		},
@@ -32,7 +32,7 @@
 			"project_name": "Tic-Tac-Toe",
 			"description": "A fun two-person Tic-Tac-Toe game using object-oriented programming. Does also include a gamemode which allows the user to play against the computer.",
 			"technologies": ["HTML", "CSS", "JS", "JQuery"],
-			"live_link": "no link",
+			"live_link": null,
 			"github_link": "https://github.com/Vagning/TTH-FSJS-P4",
 			"image_urls": []
 		},
@@ -41,7 +41,7 @@
 			"project_name": "Use a Public API to create an Employee Directory",
 			"description": "Creating a pratice employee directory by pulling data from a public API.",
 			"technologies": ["HTML", "CSS", "JS", "JQuery"],
-			"live_link": "no link",
+			"live_link": null,
 			"github_link": "https://github.com/Vagning/TTH-FSJS-P5",
 			"image_urls": []
 		}	
