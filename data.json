@@ -7,7 +7,7 @@
 			"technologies": ["HTML", "CSS", "JS"],
 			"live_link": null,
 			"github_link": "https://github.com/Vagning/TTH-FSJS-P1",
-			"image_urls": ["https://placehold.it/1200x550", "https://placehold.it/1200x550"]
+			"image_urls": ["https://placehold.it/1200x550", "https://placehold.it/1200x550","https://placehold.it/1200x550"]
 		},
 		{
 			"id": 1,
@@ -16,7 +16,7 @@
 			"technologies": ["HTML", "CSS", "JS", "JQuery"],
 			"live_link": null,
 			"github_link": "https://github.com/Vagning/TTH-FSJS-P2",
-			"image_urls": []
+			"image_urls": ["https://placehold.it/1200x550"]
 		},
 		{
 			"id": 2,
@@ -25,7 +25,7 @@
 			"technologies": ["HTML", "CSS", "JS", "JQuery"],
 			"live_link": null,
 			"github_link": "https://github.com/Vagning/TTH-FSJS-P3",
-			"image_urls": []
+			"image_urls": ["https://placehold.it/1200x550", "https://placehold.it/1200x550"]
 		},
 		{
 			"id": 3,
@@ -34,7 +34,7 @@
 			"technologies": ["HTML", "CSS", "JS", "JQuery"],
 			"live_link": null,
 			"github_link": "https://github.com/Vagning/TTH-FSJS-P4",
-			"image_urls": []
+			"image_urls": ["https://placehold.it/1200x550", "https://placehold.it/1200x550", "https://placehold.it/1200x550"]
 		},
 		{
 			"id": 4,
@@ -43,7 +43,7 @@
 			"technologies": ["HTML", "CSS", "JS", "JQuery"],
 			"live_link": null,
 			"github_link": "https://github.com/Vagning/TTH-FSJS-P5",
-			"image_urls": []
+			"image_urls": ["https://placehold.it/1200x550", "https://placehold.it/1200x550"]
 		}	
 	]
 }
