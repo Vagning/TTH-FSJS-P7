@@ -18,3 +18,28 @@ const projectRoutes = require('./routes/projects');
 app.use(mainRoutes);
 app.use('/projects', projectRoutes);
 
+//If visiting a unsued/unknown route throw 404 error
+app.use(function(req, res, next){
+  const error = new Error('Page not found')
+  next(error);
+})
+
+app.use(function(err, req, res, next) {
+	//check if HHTP header already is sent
+	if (res.headersSent) {
+		return next(err);
+	}
+
+	//Create variable containg the current time for loggin into the console
+	const timestamp = new Date();
+
+	//Add status code to error object
+	err.status = 404;
+
+	//Log error to console
+	console.error(timestamp +' ERROR '+ err.status +': '+ err.message);
+
+	//Render error page and add error object.
+	res.render('error', {err});
+
+});

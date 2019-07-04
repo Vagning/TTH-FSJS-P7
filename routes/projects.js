@@ -11,10 +11,10 @@ router.get('/:id', (req, res, next) => {
 	//Check if project exsists
 	if (project) {
 		//Render project pug template with input values for correct project
-		res.render('project', {project});
+		res.render('project', project);
 	} else {
 		//If request project doesn't exsist throw error
-		const error = new Error('Project not found');
+		const error = new Error('Page not found');
 		next(error);
 	}
 
