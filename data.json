@@ -7,7 +7,7 @@
 			"technologies": ["HTML", "CSS", "JS"],
 			"live_link": null,
 			"github_link": "https://github.com/Vagning/TTH-FSJS-P1",
-			"image_urls": ["https://placehold.it/1200x550", "https://placehold.it/1200x550","https://placehold.it/1200x550"]
+			"image_urls": ["static/img/RandomQuotes550.png", "/static/img/RandomQuotes1.png"]
 		},
 		{
 			"id": 1,
@@ -16,7 +16,7 @@
 			"technologies": ["HTML", "CSS", "JS", "JQuery"],
 			"live_link": null,
 			"github_link": "https://github.com/Vagning/TTH-FSJS-P2",
-			"image_urls": ["https://placehold.it/1200x550"]
+			"image_urls": ["/static/img/Filter550.png", "/static/img/Filter1.png", "/static/img/Filter2.png"]
 		},
 		{
 			"id": 2,
@@ -25,7 +25,7 @@
 			"technologies": ["HTML", "CSS", "JS", "JQuery"],
 			"live_link": null,
 			"github_link": "https://github.com/Vagning/TTH-FSJS-P3",
-			"image_urls": ["https://placehold.it/1200x550", "https://placehold.it/1200x550"]
+			"image_urls": ["/static/img/Form550.png", "/static/img/Form1.png", "/static/img/Form2.png"]
 		},
 		{
 			"id": 3,
@@ -34,7 +34,7 @@
 			"technologies": ["HTML", "CSS", "JS", "JQuery"],
 			"live_link": null,
 			"github_link": "https://github.com/Vagning/TTH-FSJS-P4",
-			"image_urls": ["https://placehold.it/1200x550", "https://placehold.it/1200x550", "https://placehold.it/1200x550"]
+			"image_urls": ["/static/img/TicTacToe550.png", "/static/img/TicTacToe1.png"]
 		},
 		{
 			"id": 4,
@@ -43,7 +43,7 @@
 			"technologies": ["HTML", "CSS", "JS", "JQuery"],
 			"live_link": null,
 			"github_link": "https://github.com/Vagning/TTH-FSJS-P5",
-			"image_urls": ["https://placehold.it/1200x550", "https://placehold.it/1200x550"]
+			"image_urls": ["/static/img/PublicAPI550.png", "/static/img/PublicAPI1.png"]
 		}	
 	]
 }
