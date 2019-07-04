@@ -6,15 +6,9 @@ const { projects } = require('../data.json');
 router.get('/:id', (req, res) => {
 	//Set id as variable
 	const { id } = req.params;
+	const project = projects[id];
 	//Render project pug template with input values for correct project
-	res.render('project', {
-		title: projects[id].project_name,
-		description: projects[id].description,
-		tags: projects[id].technologies,
-		live: projects[id].live_link,
-		github: projects[id].github_link,
-		images: projects[id].image_urls
-	});
+	res.render('project', {project});
 });
 
 module.exports = router;
